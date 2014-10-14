@@ -1,0 +1,5 @@
+def nc(x):
+	if x<10:
+		return 1
+	else:
+		return nc(x/10)+1
