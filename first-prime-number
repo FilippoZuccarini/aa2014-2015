@@ -12,8 +12,8 @@ def primo(x):
 	else:
 		return 0
 
-def primoprimo(x):
+def np(x):
 	if (primo(x+1)):
 		return x+1
 	else:
-		return primoprimo(x+1)
+		return np(x+1)
